@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+	<item http://schemas.android.com/apk/res/android:left="1dp" http://schemas.android.com/apk/res/android:top="1dp" http://schemas.android.com/apk/res/android:right="1dp" http://schemas.android.com/apk/res/android:bottom="1dp">
+		<shape http://schemas.android.com/apk/res/android:shape="0">
+			<solid http://schemas.android.com/apk/res/android:color="resourceId:0x106000d" />
+			<stroke http://schemas.android.com/apk/res/android:width="4dp" http://schemas.android.com/apk/res/android:color="4d4284f2" />
+		</shape>
+	</item>
+	<item http://schemas.android.com/apk/res/android:drawable="res/drawable/common_google_signin_btn_text_light_normal.xml" />
+</layer-list>

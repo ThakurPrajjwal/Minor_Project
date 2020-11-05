@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector http://schemas.android.com/apk/res/android:constantSize="true">
+	<item http://schemas.android.com/apk/res/android:state_enabled="false" http://schemas.android.com/apk/res/android:state_pressed="true">
+		<bitmap http://schemas.android.com/apk/res/android:gravity="0x11" http://schemas.android.com/apk/res/android:src="res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png" />
+	</item>
+	<item http://schemas.android.com/apk/res/android:state_enabled="false">
+		<bitmap http://schemas.android.com/apk/res/android:gravity="0x11" http://schemas.android.com/apk/res/android:src="res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png" />
+	</item>
+	<item http://schemas.android.com/apk/res/android:state_pressed="true">
+		<bitmap http://schemas.android.com/apk/res/android:gravity="0x11" http://schemas.android.com/apk/res/android:src="res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" />
+	</item>
+	<item>
+		<bitmap http://schemas.android.com/apk/res/android:gravity="0x11" http://schemas.android.com/apk/res/android:src="res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png" />
+	</item>
+</selector>

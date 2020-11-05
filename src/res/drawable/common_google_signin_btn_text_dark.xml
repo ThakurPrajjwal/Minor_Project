@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+	<item http://schemas.android.com/apk/res/android:state_enabled="false" http://schemas.android.com/apk/res/android:drawable="res/drawable/common_google_signin_btn_text_disabled.xml" />
+	<item http://schemas.android.com/apk/res/android:state_focused="true" http://schemas.android.com/apk/res/android:drawable="res/drawable/common_google_signin_btn_text_dark_focused.xml" />
+	<item http://schemas.android.com/apk/res/android:drawable="res/drawable/common_google_signin_btn_text_dark_normal.xml" />
+</selector>

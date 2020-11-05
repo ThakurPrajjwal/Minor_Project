@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+	<item http://schemas.android.com/apk/res/android:state_enabled="false" http://schemas.android.com/apk/res/android:color="1f000" />
+	<item http://schemas.android.com/apk/res/android:state_pressed="true" http://schemas.android.com/apk/res/android:color="resourceId:0x106000b" />
+	<item http://schemas.android.com/apk/res/android:state_focused="true" http://schemas.android.com/apk/res/android:color="resourceId:0x106000c" />
+	<item http://schemas.android.com/apk/res/android:color="resourceId:0x106000b" />
+</selector>
