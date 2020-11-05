@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+	<item>
+		<layer-list>
+			<item>
+				<shape>
+					<gradient http://schemas.android.com/apk/res/android:startColor="09688" http://schemas.android.com/apk/res/android:endColor="09688" http://schemas.android.com/apk/res/android:angle="{4:1119092736}" http://schemas.android.com/apk/res/android:type="0" />
+					<corners http://schemas.android.com/apk/res/android:radius="4dp" />
+					<padding http://schemas.android.com/apk/res/android:left="3dp" http://schemas.android.com/apk/res/android:top="3dp" http://schemas.android.com/apk/res/android:right="3dp" http://schemas.android.com/apk/res/android:bottom="3dp" />
+				</shape>
+			</item>
+			<item>
+				<bitmap http://schemas.android.com/apk/res/android:gravity="0x15" http://schemas.android.com/apk/res/android:src="res/drawable-hdpi-v4/ic_btn_round_more_normal.png" />
+			</item>
+		</layer-list>
+	</item>
+</selector>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape http://schemas.android.com/apk/res/android:shape="0">
+	<corners http://schemas.android.com/apk/res/android:radius="5dp" />
+	<padding http://schemas.android.com/apk/res/android:left="10dp" http://schemas.android.com/apk/res/android:top="10dp" http://schemas.android.com/apk/res/android:right="10dp" http://schemas.android.com/apk/res/android:bottom="10dp" />
+	<stroke http://schemas.android.com/apk/res/android:width="1dp" http://schemas.android.com/apk/res/android:color="000" />
+	<solid http://schemas.android.com/apk/res/android:color="f5f5f5" />
+</shape>

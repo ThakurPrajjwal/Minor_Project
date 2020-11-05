@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+	<item http://schemas.android.com/apk/res/android:state_pressed="true">
+		<shape>
+			<solid http://schemas.android.com/apk/res/android:color="09688" />
+			<stroke http://schemas.android.com/apk/res/android:width="1dp" http://schemas.android.com/apk/res/android:color="09688" />
+			<corners http://schemas.android.com/apk/res/android:radius="6dp" />
+			<padding http://schemas.android.com/apk/res/android:left="10dp" http://schemas.android.com/apk/res/android:top="10dp" http://schemas.android.com/apk/res/android:right="10dp" http://schemas.android.com/apk/res/android:bottom="10dp" />
+		</shape>
+	</item>
+	<item>
+		<shape>
+			<gradient http://schemas.android.com/apk/res/android:startColor="09688" http://schemas.android.com/apk/res/android:endColor="0786d" http://schemas.android.com/apk/res/android:angle="{4:1132920832}" />
+			<stroke http://schemas.android.com/apk/res/android:width="1dp" http://schemas.android.com/apk/res/android:color="09688" />
+			<corners http://schemas.android.com/apk/res/android:radius="6dp" />
+			<padding http://schemas.android.com/apk/res/android:left="10dp" http://schemas.android.com/apk/res/android:top="10dp" http://schemas.android.com/apk/res/android:right="10dp" http://schemas.android.com/apk/res/android:bottom="10dp" />
+		</shape>
+	</item>
+</selector>
