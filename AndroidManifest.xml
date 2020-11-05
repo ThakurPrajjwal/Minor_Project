@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="11" android:versionName="1.10" package="com.neoAntara.Restaurant">
+	<uses-sdk android:minSdkVersion="17" android:targetSdkVersion="23" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<application android:label="Restaurant" android:icon="res/drawable-xxhdpi-v4/icon.png" android:allowBackup="false">
+		<activity android:label="Restaurant" android:name="com.neoAntara.newrestaurant.MainActivity" android:screenOrientation="portrait" android:noHistory="true">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:label="Home" android:name="com.neoAntara.newrestaurant.Home" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.Home" />
+			</intent-filter>
+		</activity>
+		<activity android:label="New User" android:name="com.neoAntara.newrestaurant.CreateUser" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.CreateUser" />
+			</intent-filter>
+		</activity>
+		<activity android:label="Add Item" android:name="com.neoAntara.newrestaurant.AddItem" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.AddItem" />
+			</intent-filter>
+		</activity>
+		<activity android:label="New Order" android:name="com.neoAntara.newrestaurant.NewOrder" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.NewOrder" />
+			</intent-filter>
+		</activity>
+		<activity android:label="Edit Orders" android:name="com.neoAntara.newrestaurant.EditOrder" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.EditOrder" />
+			</intent-filter>
+		</activity>
+		<activity android:label="Reports" android:name="com.neoAntara.newrestaurant.Reports" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.Reports" />
+			</intent-filter>
+		</activity>
+		<activity android:label="DayEnd" android:name="com.neoAntara.newrestaurant.DayEnd" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.DayEnd" />
+			</intent-filter>
+		</activity>
+		<activity android:theme="res/drawable-xxhdpi-v4/images51.jpg" android:label="Search" android:name="com.neoAntara.newrestaurant.SearchItem" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.SearchItem" />
+			</intent-filter>
+		</activity>
+		<activity android:label="Change Password" android:name="com.neoAntara.newrestaurant.ChangePassword" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.ChangePassword" />
+			</intent-filter>
+		</activity>
+		<activity android:label="Reprint" android:name="com.neoAntara.newrestaurant.Reprint" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.Reprint" />
+			</intent-filter>
+		</activity>
+		<activity android:label="Expenses" android:name="com.neoAntara.newrestaurant.CreditTransaction" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.Setting" />
+			</intent-filter>
+		</activity>
+		<activity android:label="Setting" android:name="com.neoAntara.newrestaurant.Setting" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.Setting" />
+			</intent-filter>
+		</activity>
+		<activity android:label="ImportDB" android:name="com.neoAntara.newrestaurant.ImportDB" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.ImportDB" />
+			</intent-filter>
+		</activity>
+		<activity android:label="ExportDB" android:name="com.neoAntara.newrestaurant.ExportDB" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.ExportDB" />
+			</intent-filter>
+		</activity>
+		<activity android:label="User Rights" android:name="com.neoAntara.newrestaurant.UserRights" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.UserRights" />
+			</intent-filter>
+		</activity>
+		<activity android:label="Help" android:name="com.neoAntara.newrestaurant.Help" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.Help" />
+			</intent-filter>
+		</activity>
+		<activity android:theme="@android:style/Theme.NoTitleBar" android:label="Device List" android:name="com.neoAntara.newrestaurant.Print.DeviceListActivity" android:screenOrientation="portrait" />
+		<service android:name="com.neoAntara.newrestaurant.Services.PrinterWatcher" />
+		<receiver android:name="com.google.android.gms.gcm.GcmReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:exported="true">
+			<intent-filter>
+				<action android:name="com.google.android.c2dm.intent.RECEIVE" />
+				<category android:name="com.example.gcm.gcmreceiver" />
+			</intent-filter>
+		</receiver>
+		<service android:name="com.neoAntara.newrestaurant.AppGcmListenerService" android:exported="false">
+			<intent-filter>
+				<action android:name="com.google.android.c2dm.intent.RECEIVE" />
+			</intent-filter>
+		</service>
+		<service android:name="com.neoAntara.newrestaurant.AppInstanceIDListenerService" android:exported="false">
+			<intent-filter>
+				<action android:name="com.google.android.gms.iid.InstanceID" />
+			</intent-filter>
+		</service>
+		<service android:name="com.neoAntara.newrestaurant.RegistrationIntentService" android:exported="false" />
+		<activity android:label="activity_userights" android:name="com.neoAntara.newrestaurant.activity_userights" />
+		<activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false" />
+		<activity android:theme="@android:style/Theme.Translucent" android:name="com.google.android.gms.ads.AdActivity" android:exported="false" android:configChanges="0xfb0" />
+		<meta-data android:name="com.google.android.gms.version" android:value="11910000" />
+		<meta-data android:name="com.android.vending.derived.apk.id" android:value="1" />
+	</application>
+</manifest>
