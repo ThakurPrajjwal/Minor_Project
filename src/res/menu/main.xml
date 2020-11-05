@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+	<item http://schemas.android.com/apk/res/android:icon="res/drawable-hdpi-v4/ic_menu_moreoverflow_normal_holo_dark.png" http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:title="" http://schemas.android.com/apk/res/android:showAsAction="0x1">
+		<menu>
+			<item http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:title="Home" />
+			<item http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:visible="false" http://schemas.android.com/apk/res/android:title="Add Item" />
+			<item http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:visible="false" http://schemas.android.com/apk/res/android:title="Search Item" />
+			<item http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:visible="false" http://schemas.android.com/apk/res/android:title="New Order" />
+			<item http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:visible="false" http://schemas.android.com/apk/res/android:title="Edit Order" />
+			<item http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:visible="false" http://schemas.android.com/apk/res/android:title="Reprint" />
+			<item http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:visible="false" http://schemas.android.com/apk/res/android:title="Reports" />
+			<item http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:title="Expenses" />
+			<item http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:title="DayEnd" />
+			<item http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:visible="false" http://schemas.android.com/apk/res/android:title="Create User" />
+			<item http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:title="Change Password" />
+			<item http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:title="Setting" />
+			<item http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:title="ExportDB" />
+			<item http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:title="User Rights" />
+			<item http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:title="Help" />
+			<item http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:title="Logout" />
+		</menu>
+	</item>
+</menu>
