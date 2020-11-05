@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+	<item http://schemas.android.com/apk/res/android:left="3dp" http://schemas.android.com/apk/res/android:top="3dp" http://schemas.android.com/apk/res/android:right="3dp" http://schemas.android.com/apk/res/android:bottom="3dp">
+		<shape http://schemas.android.com/apk/res/android:shape="0">
+			<solid http://schemas.android.com/apk/res/android:color="ebebeb" />
+			<corners http://schemas.android.com/apk/res/android:radius="2dp" />
+			<padding http://schemas.android.com/apk/res/android:left="50dp" http://schemas.android.com/apk/res/android:top="8dp" http://schemas.android.com/apk/res/android:right="11dp" http://schemas.android.com/apk/res/android:bottom="7dp" />
+		</shape>
+	</item>
+	<item http://schemas.android.com/apk/res/android:left="-36dp">
+		<bitmap http://schemas.android.com/apk/res/android:gravity="0x13" http://schemas.android.com/apk/res/android:src="res/drawable-xxhdpi-v4/googleg_disabled_color_18.png" />
+	</item>
+</layer-list>

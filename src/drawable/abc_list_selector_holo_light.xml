@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+	<item http://schemas.android.com/apk/res/android:state_window_focused="false" http://schemas.android.com/apk/res/android:drawable="resourceId:0x106000d" />
+	<item http://schemas.android.com/apk/res/android:state_focused="true" http://schemas.android.com/apk/res/android:state_enabled="false" http://schemas.android.com/apk/res/android:state_pressed="true" http://schemas.android.com/apk/res/android:drawable="res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png" />
+	<item http://schemas.android.com/apk/res/android:state_focused="true" http://schemas.android.com/apk/res/android:state_enabled="false" http://schemas.android.com/apk/res/android:drawable="res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png" />
+	<item http://schemas.android.com/apk/res/android:state_focused="true" http://schemas.android.com/apk/res/android:state_pressed="true" http://schemas.android.com/apk/res/android:drawable="res/drawable/abc_list_selector_background_transition_holo_light.xml" />
+	<item http://schemas.android.com/apk/res/android:state_focused="false" http://schemas.android.com/apk/res/android:state_pressed="true" http://schemas.android.com/apk/res/android:drawable="res/drawable/abc_list_selector_background_transition_holo_light.xml" />
+	<item http://schemas.android.com/apk/res/android:state_focused="true" http://schemas.android.com/apk/res/android:drawable="res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png" />
+</selector>
