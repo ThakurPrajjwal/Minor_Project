@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton http://schemas.android.com/apk/res/android:gravity="0x11" http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:layout_width="48dp" http://schemas.android.com/apk/res/android:layout_height="-1" http://schemas.android.com/apk/res/android:layout_marginLeft="2dp" http://schemas.android.com/apk/res/android:layout_marginRight="2dp" http://schemas.android.com/apk/res/android:layout_weight="{4:1065353216}" style="{2:16843563}" />

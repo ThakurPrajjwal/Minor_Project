@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+	<android.support.v7.internal.widget.ContentFrameLayout http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-1" http://schemas.android.com/apk/res/android:foreground="{2:16842841}" http://schemas.android.com/apk/res/android:foregroundGravity="0x37" />
+</merge>

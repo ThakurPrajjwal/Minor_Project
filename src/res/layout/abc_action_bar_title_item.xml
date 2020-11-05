@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout http://schemas.android.com/apk/res/android:orientation="1" http://schemas.android.com/apk/res/android:layout_width="-2" http://schemas.android.com/apk/res/android:layout_height="-2" style="resourceId:0x7f0c009e">
+	<TextView http://schemas.android.com/apk/res/android:ellipsize="3" http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:layout_width="-2" http://schemas.android.com/apk/res/android:layout_height="-2" http://schemas.android.com/apk/res/android:singleLine="true" />
+	<TextView http://schemas.android.com/apk/res/android:ellipsize="3" http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:visibility="2" http://schemas.android.com/apk/res/android:layout_width="-2" http://schemas.android.com/apk/res/android:layout_height="-2" http://schemas.android.com/apk/res/android:layout_marginTop="-3dp" http://schemas.android.com/apk/res/android:singleLine="true" />
+</LinearLayout>
