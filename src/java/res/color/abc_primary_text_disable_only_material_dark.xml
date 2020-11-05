@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+	<item http://schemas.android.com/apk/res/android:state_enabled="false" http://schemas.android.com/apk/res/android:color="80ffffff" />
+	<item http://schemas.android.com/apk/res/android:color="resourceId:0x106000b" />
+</selector>
